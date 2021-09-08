@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853253412567",
+    "project_id": "triecionary",
+    "storage_bucket": "triecionary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853253412567:android:8e9822180c333d92f34292",
+        "android_client_info": {
+          "package_name": "com.gabriel.diccionariowithtrie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853253412567-gkakkuakee98j7j8pihlvbo72v9s0upf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnTD_UFhJK0SIjRj1jqJvWCkWbJze5dlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853253412567-gkakkuakee98j7j8pihlvbo72v9s0upf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
