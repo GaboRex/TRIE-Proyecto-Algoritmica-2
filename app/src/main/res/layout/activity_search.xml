@@ -6,62 +6,135 @@
     android:layout_height="match_parent"
     tools:context=".SearchActivity">
 
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000D0C0C"
+            android:fontFamily="monospace"
+            android:text="Significado"
+            android:textAlignment="viewStart"
+            android:textColor="#FCFCFC"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.352" />
+
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:background="#070707"
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="1.0"
             app:srcCompat="@drawable/fondo_search" />
 
-        <EditText
-            android:id="@+id/buscador"
-            android:layout_width="235dp"
-            android:layout_height="40dp"
-            android:background="@color/white"
-            android:backgroundTint="#010101"
-            android:ems="10"
-            android:hint="Busca tu palabra"
-            android:inputType="textLongMessage"
-            android:padding="10dp"
-            android:textColor="#000000"
+        <TextView
+            android:id="@+id/traduccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000D0C0C"
+            android:fontFamily="monospace"
+            android:text="Traduccion.-"
+            android:textAlignment="viewStart"
+            android:textColor="#FCFCFC"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.581" />
+            app:layout_constraintVertical_bias="0.566" />
+
+        <TextView
+            android:id="@+id/aymara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000D0C0C"
+            android:fontFamily="monospace"
+            android:text="Aymara:"
+            android:textAlignment="viewStart"
+            android:textColor="#FCFCFC"
+            android:textSize="18sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.202"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.64" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000D0C0C"
+            android:fontFamily="monospace"
+            android:text="Ingles:"
+            android:textAlignment="viewStart"
+            android:textColor="#FCFCFC"
+            android:textSize="18sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.833"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.64" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="217dp"
-            android:layout_height="167dp"
+            android:layout_width="126dp"
+            android:layout_height="136dp"
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.226"
+            app:layout_constraintVertical_bias="0.05"
             app:srcCompat="@drawable/lupa_opcion"
-            app:tint="@color/white"/>
+            app:tint="@color/white" />
 
         <Button
-            android:id="@+id/buttonBuscar"
+            android:id="@+id/buttonBuscador"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#000000"
+            android:background="#90000000"
             android:text="BUSCAR!"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageView7"
-            app:layout_constraintVertical_bias="0.77" />
+            app:layout_constraintVertical_bias="0.929" />
+
+        <EditText
+            android:id="@+id/buscador"
+            android:layout_width="235dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="344dp"
+            android:background="@drawable/round_shape"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Busque una palabra"
+            android:inputType="textLongMessage"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.53"
+            tools:ignore="UnknownId" />
 
         <ImageView
             android:id="@+id/imageView14"
@@ -74,5 +147,72 @@
             app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/buscar"
             app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/meaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000D0C0C"
+            android:fontFamily="monospace"
+            android:text="Significado.-"
+            android:textAlignment="viewStart"
+            android:textColor="#FCFCFC"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.352" />
+
+        <TextView
+            android:id="@+id/textPalabraBuscada"
+            android:layout_width="378dp"
+            android:layout_height="88dp"
+            android:background="#9E0E0E0E"
+            android:fontFamily="casual"
+            android:text=""
+            android:textAlignment="viewStart"
+            android:textColor="#FBF7F7"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.446" />
+
+        <TextView
+            android:id="@+id/textAymara"
+            android:layout_width="176dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="112dp"
+            android:background="#9F0E0E0E"
+            android:fontFamily="casual"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FBF7F7"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.072"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPalabraBuscada" />
+
+        <TextView
+            android:id="@+id/textIngles"
+            android:layout_width="176dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="112dp"
+            android:background="#8B0E0E0E"
+            android:fontFamily="casual"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FBF7F7"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.931"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPalabraBuscada" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

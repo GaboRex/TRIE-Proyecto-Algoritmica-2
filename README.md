@@ -1,4 +1,4 @@
 # TRIE-Proyecto-Algoritmica-2
-PRUEBA
-
-a ya
+## Descripcion
+    El algortimo TRIE permite la busqueda de palabras
+## Guia de Instalacion

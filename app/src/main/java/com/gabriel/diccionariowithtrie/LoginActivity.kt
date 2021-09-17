@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
     private fun setup() {
         title = "Autenticacion"
 
-        buttonRegistrarse.setOnClickListener {
+        buttonBuscar.setOnClickListener {
             if (editTextUsuario.text.isNotEmpty() && editTextPassword.text.isNotEmpty()) {
                 FirebaseAuth.getInstance()
                     .createUserWithEmailAndPassword(
