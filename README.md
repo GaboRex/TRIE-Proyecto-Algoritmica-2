@@ -1,4 +1,6 @@
 # TRIE-Proyecto-Algoritmica-2
-## Descripcion
-    El algortimo TRIE permite la busqueda de palabras
-## Guia de Instalacion
+Repositorio para el proyecto final de algoritmica 2
+## Integrantes del grupo 🍻:
+* Pablo Badani
+* Gabriel Neme
+* Richard Rojas
